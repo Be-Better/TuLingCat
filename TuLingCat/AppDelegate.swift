@@ -1,12 +1,15 @@
-//
-//  AppDelegate.swift
-//  TuLingCat
-//
-//  Created by 陈长麟 on 15/12/3.
-//  Copyright © 2015年 chen. All rights reserved.
-//
+
 
 import UIKit
+import Parse
+
+public struct TLUtils {
+    private static let applicationID = "PgXzfXpUZLNFHyU4mQMEyE9QW3eVnL6HcKUp1WUD"
+    private static let clientKey = "fnctzRNggJNI6AFOWNuhfOyB4e51mWKDnRbI4ZXM"
+    public static let api_key = "6dc139c39e7ff60de2a675780b1ab0be"
+    public static let api_url = "http://www.tuling123.com/openapi/api"
+    public static let userID = ""
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.setApplicationId(TLUtils.applicationID, clientKey: TLUtils.clientKey)
+        
+        let chatVC: ChatTableViewController = ChatTableViewController()
+        chatVC.title = "图灵机器人"
+        
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        let navigationVC: TLCatNavController = TLCatNavController(rootViewController:chatVC)
+        
+
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window?.backgroundColor = UIColor.whiteColor()
+        window?.rootViewController = navigationVC
+        window?.makeKeyAndVisible()
         return true
     }
 
