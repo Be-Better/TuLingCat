@@ -262,6 +262,16 @@ class ChatTableViewController: UITableViewController, UITextViewDelegate {
             return cell
         }
     }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if let selectCell = tableView.cellForRowAtIndexPath(indexPath) as? MessageBubbleTableViewCell {
+            if selectCell.url != "" {
+                let webViewController = WebViewController(url:selectCell.url)
+//                self.presentViewController(webViewController, animated: true, completion: nil)
+                self.navigationController?.pushViewController(webViewController, animated: true)
+            }
+        }
+    }
 
     //MARK:格式化时间
     func formateDate(date: NSDate) -> String {
