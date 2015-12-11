@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042C5BAE1C195860004D051F /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C5BAD1C195860004D051F /* InputTextView.swift */; };
-		042C5BB51C1AC4F7004D051F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C5BB41C1AC4F7004D051F /* WebViewController.swift */; };
 		04320EBD1C108BCE0077156A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04320EBC1C108BCE0077156A /* AppDelegate.swift */; };
 		04320EC41C108BCE0077156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04320EC31C108BCE0077156A /* Assets.xcassets */; };
 		04320EC71C108BCE0077156A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04320EC51C108BCE0077156A /* LaunchScreen.storyboard */; };
-		04320ECF1C10A6130077156A /* TLCatNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04320ECE1C10A6130077156A /* TLCatNavController.swift */; };
-		04320ED11C10A9DE0077156A /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04320ED01C10A9DE0077156A /* ChatTableViewController.swift */; };
-		0475431A1C17CA020032322C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047543191C17CA020032322C /* Message.swift */; };
 		04FBA16D1C170DFE00BC331D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FBA16C1C170DFE00BC331D /* UIKit.framework */; };
-		04FBA16F1C17154000BC331D /* MessageBubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBA16E1C17154000BC331D /* MessageBubbleTableViewCell.swift */; };
-		04FBA1711C17154D00BC331D /* MessageSentDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBA1701C17154D00BC331D /* MessageSentDateTableViewCell.swift */; };
-		04FBA1731C1722E100BC331D /* MessageBubbleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FBA1721C1722E100BC331D /* MessageBubbleImage.swift */; };
 		16027E427F082E36A7C93A7B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164162AD999955F2C59F0C0 /* Pods.framework */; };
+		740C89881C1AD0D300993C85 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C89871C1AD0D300993C85 /* Message.swift */; };
+		740C89921C1AD0F600993C85 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C898A1C1AD0F600993C85 /* ChatTableViewController.swift */; };
+		740C89931C1AD0F600993C85 /* TLCatNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C898B1C1AD0F600993C85 /* TLCatNavController.swift */; };
+		740C89941C1AD0F600993C85 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C898C1C1AD0F600993C85 /* WebViewController.swift */; };
+		740C89951C1AD0F600993C85 /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C898E1C1AD0F600993C85 /* InputTextView.swift */; };
+		740C89961C1AD0F600993C85 /* MessageBubbleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C898F1C1AD0F600993C85 /* MessageBubbleImage.swift */; };
+		740C89971C1AD0F600993C85 /* MessageBubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C89901C1AD0F600993C85 /* MessageBubbleTableViewCell.swift */; };
+		740C89981C1AD0F600993C85 /* MessageSentDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C89911C1AD0F600993C85 /* MessageSentDateTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		042C5BAD1C195860004D051F /* InputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputTextView.swift; path = ../InputTextView.swift; sourceTree = "<group>"; };
-		042C5BB41C1AC4F7004D051F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		04320EB91C108BCE0077156A /* TuLingCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuLingCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04320EBC1C108BCE0077156A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04320EC31C108BCE0077156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04320EC61C108BCE0077156A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04320EC81C108BCE0077156A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04320ECE1C10A6130077156A /* TLCatNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLCatNavController.swift; sourceTree = "<group>"; };
-		04320ED01C10A9DE0077156A /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
-		047543191C17CA020032322C /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		04FBA16C1C170DFE00BC331D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		04FBA16E1C17154000BC331D /* MessageBubbleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleTableViewCell.swift; sourceTree = "<group>"; };
-		04FBA1701C17154D00BC331D /* MessageSentDateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSentDateTableViewCell.swift; sourceTree = "<group>"; };
-		04FBA1721C1722E100BC331D /* MessageBubbleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleImage.swift; sourceTree = "<group>"; };
 		4164162AD999955F2C59F0C0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740C89871C1AD0D300993C85 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		740C898A1C1AD0F600993C85 /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		740C898B1C1AD0F600993C85 /* TLCatNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLCatNavController.swift; sourceTree = "<group>"; };
+		740C898C1C1AD0F600993C85 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		740C898E1C1AD0F600993C85 /* InputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextView.swift; sourceTree = "<group>"; };
+		740C898F1C1AD0F600993C85 /* MessageBubbleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleImage.swift; sourceTree = "<group>"; };
+		740C89901C1AD0F600993C85 /* MessageBubbleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubbleTableViewCell.swift; sourceTree = "<group>"; };
+		740C89911C1AD0F600993C85 /* MessageSentDateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSentDateTableViewCell.swift; sourceTree = "<group>"; };
 		A36CC0DCE8552C19084E25EE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E9FDFAB78009DE01D5DC8611 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,42 +55,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		042C5BAF1C1AB23F004D051F /* view */ = {
-			isa = PBXGroup;
-			children = (
-				04FBA16E1C17154000BC331D /* MessageBubbleTableViewCell.swift */,
-				04FBA1701C17154D00BC331D /* MessageSentDateTableViewCell.swift */,
-				042C5BAD1C195860004D051F /* InputTextView.swift */,
-			);
-			name = view;
-			sourceTree = "<group>";
-		};
-		042C5BB01C1AB25C004D051F /* model */ = {
-			isa = PBXGroup;
-			children = (
-				047543191C17CA020032322C /* Message.swift */,
-			);
-			name = model;
-			sourceTree = "<group>";
-		};
-		042C5BB11C1AB26D004D051F /* utils */ = {
-			isa = PBXGroup;
-			children = (
-				04FBA1721C1722E100BC331D /* MessageBubbleImage.swift */,
-			);
-			name = utils;
-			sourceTree = "<group>";
-		};
-		042C5BB21C1AB27C004D051F /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				04320ECE1C10A6130077156A /* TLCatNavController.swift */,
-				04320ED01C10A9DE0077156A /* ChatTableViewController.swift */,
-				042C5BB41C1AC4F7004D051F /* WebViewController.swift */,
-			);
-			name = controller;
-			sourceTree = "<group>";
-		};
 		042C5BB31C1AB289004D051F /* other */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +87,10 @@
 		04320EBB1C108BCE0077156A /* TuLingCat */ = {
 			isa = PBXGroup;
 			children = (
+				740C89891C1AD0F600993C85 /* Controller */,
+				740C898D1C1AD0F600993C85 /* View */,
+				740C89861C1AD0D300993C85 /* Model */,
 				042C5BB31C1AB289004D051F /* other */,
-				042C5BB21C1AB27C004D051F /* controller */,
-				042C5BB11C1AB26D004D051F /* utils */,
-				042C5BB01C1AB25C004D051F /* model */,
-				042C5BAF1C1AB23F004D051F /* view */,
 			);
 			path = TuLingCat;
 			sourceTree = "<group>";
@@ -139,6 +102,35 @@
 				4164162AD999955F2C59F0C0 /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		740C89861C1AD0D300993C85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				740C89871C1AD0D300993C85 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		740C89891C1AD0F600993C85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				740C898A1C1AD0F600993C85 /* ChatTableViewController.swift */,
+				740C898B1C1AD0F600993C85 /* TLCatNavController.swift */,
+				740C898C1C1AD0F600993C85 /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		740C898D1C1AD0F600993C85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				740C898E1C1AD0F600993C85 /* InputTextView.swift */,
+				740C898F1C1AD0F600993C85 /* MessageBubbleImage.swift */,
+				740C89901C1AD0F600993C85 /* MessageBubbleTableViewCell.swift */,
+				740C89911C1AD0F600993C85 /* MessageSentDateTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B5A6DE514D5D34738DC5A61D /* Pods */ = {
@@ -271,15 +263,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740C89951C1AD0F600993C85 /* InputTextView.swift in Sources */,
+				740C89931C1AD0F600993C85 /* TLCatNavController.swift in Sources */,
 				04320EBD1C108BCE0077156A /* AppDelegate.swift in Sources */,
-				042C5BB51C1AC4F7004D051F /* WebViewController.swift in Sources */,
-				04FBA1731C1722E100BC331D /* MessageBubbleImage.swift in Sources */,
-				04320ECF1C10A6130077156A /* TLCatNavController.swift in Sources */,
-				04FBA16F1C17154000BC331D /* MessageBubbleTableViewCell.swift in Sources */,
-				04320ED11C10A9DE0077156A /* ChatTableViewController.swift in Sources */,
-				04FBA1711C17154D00BC331D /* MessageSentDateTableViewCell.swift in Sources */,
-				042C5BAE1C195860004D051F /* InputTextView.swift in Sources */,
-				0475431A1C17CA020032322C /* Message.swift in Sources */,
+				740C89881C1AD0D300993C85 /* Message.swift in Sources */,
+				740C89941C1AD0F600993C85 /* WebViewController.swift in Sources */,
+				740C89961C1AD0F600993C85 /* MessageBubbleImage.swift in Sources */,
+				740C89971C1AD0F600993C85 /* MessageBubbleTableViewCell.swift in Sources */,
+				740C89981C1AD0F600993C85 /* MessageSentDateTableViewCell.swift in Sources */,
+				740C89921C1AD0F600993C85 /* ChatTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
